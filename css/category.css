@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+
+/* Category */
+
+.cheading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../assets/banner2.png);
+  background-size: cover;
+  height: 250px;
+  color: white;
+  font-size: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.cat1 {
+  width: 250px;
+  margin: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.cat1:hover {
+  transform: scale(1.05);
+}
+
+.cat1 img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.cat1 h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.cat1 p {
+  font-size: 14px;
+  color: #777;
+}
+
+.buy-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.buy-button:hover {
+  background-color: #45a049;
+}
+/* footer */
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  padding: 20px 0;
+}
+
+footer h3{
+  margin-bottom: 15px;
+}
+
+.footer-content {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  margin-bottom: 20px;
+  flex: 1;
+  margin-right: 20px;
+}
+
+.footer-section h3{
+  color: #4CAF50;
+  font-weight: bold;
+}
+
+.footer-section span{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.end{
+  color: #4CAF50;
+}
+
+@media screen and (max-width: 600px) {
+  .footer-section {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 900px) {
+  .footer-section {
+    width: 48%;
+  }
+}
+
+footer span {
+  display: block;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .footer-section {
+    flex: 100%;
+    margin-right: 0;
+  }
+}
