@@ -68,6 +68,15 @@ text-decoration: none;
 color: white;
 }
 
+.add-to-cart-btn:hover{
+  background-color: black;
+  color: #fff;
+  transition-duration: 0.4s;
+}
+.add-to-cart-btn a:hover{
+  color: #fff;
+}
+
  /* footer */
 
 footer {
