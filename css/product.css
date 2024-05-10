@@ -60,27 +60,19 @@
 .add-to-cart-btn {
   padding: 10px 20px;
   border: none;
-  background-color: #0066ff;
+  background-color: #b3b4bd;
+  font-weight: bold;
 }
 
 .add-to-cart-btn a{
 text-decoration: none;
-color: white;
-}
-
-.add-to-cart-btn:hover{
-  background-color: black;
-  color: #fff;
-  transition-duration: 0.4s;
-}
-.add-to-cart-btn a:hover{
-  color: #fff;
+color: black;
 }
 
  /* footer */
 
-footer {
-  background-color: #333;
+ footer {
+  background-color: #2c2e3c;
   color: #fff;
   text-align: center;
   font-weight: bold;
@@ -109,7 +101,7 @@ footer h3{
 }
 
 .footer-section h3{
-  color: #4CAF50;
+  color: #b3b4bd;
   font-weight: bold;
 }
 
@@ -125,7 +117,7 @@ footer h3{
 }
 
 .end{
-  color: #4CAF50;
+  color: #b3b4bd;
 }
 
 @media screen and (max-width: 600px) {

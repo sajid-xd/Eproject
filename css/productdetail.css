@@ -63,7 +63,7 @@
   padding: 10px 15px;
   border: none;
   border-radius: 5px;
-  background-color: #4CAF50;
+  background-color: #b3b4bd;
   color: #fff;
 } 
 
@@ -91,13 +91,9 @@
   margin: 3%;
 }
 
-.pm h1{
-  margin: 3%;
-  }
-
-.pm p{
+.data{
 font-size: 20px;
-margin: 3%;
+margin-left: 40px;
 width: 50%;
 }
   
@@ -118,33 +114,31 @@ iframe {
   }
 
   .add-to-cart-btn {
-    margin: 30px;
     border: none;
     padding: 13px;
-    font-size: 15px;
-    background-color: #0066ff;
-    color: white;
-    border-radius: 15px;
+    background-color: #b3b4bd;
 }
 
 .downp{
   border: none;
   padding: 13px;
-  font-size: 15px;
-  background-color: #00ff0d;
-  color: white;
-  border-radius: 15px;
+  background-color: #b3b4bd;
 }
 
-.pm a :hover{
+.btns :hover{
   background-color: black;
+  color: white;
   transition-duration: 0.4s;
+}
+
+.btns{
+  margin-left: 40px;
 }
   
 /* footer */
 
 footer {
-  background-color: #333;
+  background-color: #2c2e3c;
   color: #fff;
   text-align: center;
   font-weight: bold;
@@ -173,7 +167,7 @@ footer h3{
 }
 
 .footer-section h3{
-  color: #4CAF50;
+  color: #b3b4bd;
   font-weight: bold;
 }
 
@@ -189,7 +183,7 @@ footer h3{
 }
 
 .end{
-  color: #4CAF50;
+  color: #b3b4bd;
 }
 
 @media screen and (max-width: 600px) {

@@ -15,7 +15,7 @@
 }
 
 .signup-form {
-  background-color: rgba(84, 41, 124, .9);
+  background-color: rgba(179, 180, 189, .7);
   padding: 50px;
 }
 
@@ -37,7 +37,7 @@
 
 .signup-form button {
   padding: 10px 20px;
-  background-color: #0066ff;
+  background-color: #050a44;
   color: white;
   font-size: 15px;
   border: none;
@@ -60,7 +60,7 @@
 /* footer */
 
 footer {
-  background-color: #333;
+  background-color: #2c2e3c;
   color: #fff;
   text-align: center;
   font-weight: bold;
@@ -89,7 +89,7 @@ footer h3{
 }
 
 .footer-section h3{
-  color: #4CAF50;
+  color: #b3b4bd;
   font-weight: bold;
 }
 
@@ -105,7 +105,7 @@ footer h3{
 }
 
 .end{
-  color: #4CAF50;
+  color: #b3b4bd;
 }
 
 @media screen and (max-width: 600px) {
