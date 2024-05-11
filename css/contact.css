@@ -5,6 +5,12 @@
     font-weight: bold;
   }
 
+  nav li:hover{
+    background-color: #141619;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+  }
+
 /* Contact */
 
 .cbg{
