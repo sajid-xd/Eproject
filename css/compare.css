@@ -89,6 +89,15 @@
     background-color: black;
     transition-duration: 0.4s;
   }
+
+  #categoryIdSelect{
+    width: 30%;
+    text-align: center;
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+  }
   /* footer */
 
   footer {

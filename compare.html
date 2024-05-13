@@ -72,79 +72,63 @@
     </div>
   </nav>
   
-  <!-- Compare -->
+    <!-- Compare -->
   
-<div class="comparetext"><h1>Product Comparison</h1></div>
+<div class="comparetext"><h1>Product Compare</h1></div>
+<div class="container">
+<select class="form-control" id="categoryIdSelect" onchange="loadProducts()">
+  <option value="-1">-- Select Category --</option>
+</select>
+</div>
 <div class="comp">
     <div class="product">
-        <img src="./assets/display7.png"
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/1665px-No-Image-Placeholder.svg.png" id="img1"
             alt="Product A">
         <h2>Product A</h2>
-        <input type="text" class="search-bar" placeholder="Search Product A...">
+        <select class="form-control" id="select1" onchange="item1(this.value)">
+          <option value="0">-- Select Here --</option>
+      </select>
         <table>
+            
             <tr>
-                <th>Details</th>
-                <th>Specifications</th>
-            </tr>
-            <tr>
-                <td>Price</td>
-                <td>Rs: 3200</td>
+                <td id="price1">N/A</td>
             </tr>
             <tr>
-                <td>RAM</td>
-                <td>8GB</td>
+                <td id="desc1">N/A</td>
             </tr>
             <tr>
-                <td>Storage</td>
-                <td>8100MB</td>
+                <td id="brand1">N/A</td>
             </tr>
-            <tr>
-                <td>Storage Speed</td>
-                <td>500 MB/s Read, 350 MB/s Write</td>
-            </tr>
-            <tr class="highlight">
-                <td>Life</td>
-                <td>4 YEARS</td>
-            </tr>
+            
         </table>
     </div>
 
     <div class="product">
-        <img src="./assets/display8.png"
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/1665px-No-Image-Placeholder.svg.png" id="img2"
             alt="Product B">
         <h2>Product B</h2>
-        <input type="text" class="search-bar" placeholder="Search Product B...">
+        <select class="form-control" id="select2" onchange="item2(this.value)">
+          <option value="0">-- Select Here --</option>
+      </select>
         <table>
+           
             <tr>
-                <th>Details</th>
-                <th>Specifications</th>
-            </tr>
-            <tr>
-                <td>Price</td>
-                <td>Rs: 6800</td>
+                <td id="price2">N/A</td>
+              
             </tr>
             <tr>
-                <td>RAM</td>
-                <td>16GB</td>
+                <td id="desc2">N/A</td>
+                
             </tr>
             <tr>
-                <td>Storage</td>
-                <td>16100</td>
+                <td id="brand2">N/A</td>
+             
             </tr>
-            <tr>
-                <td>Storage Speed</td>
-                <td>600 MB/s Read, 450 MB/s Write</td>
-            </tr>
-            <tr class="highlight">
-                <td>Life</td>
-                <td>6 YEARS</td>
-            </tr>
+            
         </table>
     </div>
-    <div class="com">
-      <a href="./compresult.html"><button>Compare</button></a>  
-    </div>
 </div>
+
 <footer>
   <div class="footer-content">
     <div class="footer-section">
@@ -165,6 +149,9 @@
   </div>
   <span class="end">&copy; 2024 All Right Reserved</span>
 </footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<script src="./js/data.js"></script>
+<script src="./js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
