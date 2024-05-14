@@ -5,6 +5,7 @@ function item1(a) {
       document.getElementById("price1").innerHTML = "PKR " + product[a].price;
       document.getElementById("desc1").innerHTML = product[a].description;
       document.getElementById("brand1").innerHTML = product[a].brand;
+      document.getElementById("score1").innerHTML = product[a].score;
   } else {
       document.getElementById("select1").selectedIndex = 0;
       document.getElementById("img1").src = product[0].image;
@@ -21,6 +22,7 @@ function item2(a) {
       document.getElementById("price2").innerHTML = "PKR " + product[a].price;
       document.getElementById("desc2").innerHTML = product[a].description;
       document.getElementById("brand2").innerHTML = product[a].brand;
+      document.getElementById("score2").innerHTML = product[a].score;
   } else {
       document.getElementById("select2").selectedIndex = 0;
       document.getElementById("img2").src = product[0].image;

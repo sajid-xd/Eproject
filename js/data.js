@@ -33,6 +33,7 @@ var product = [{
     "description": "The Lexar DDR4-3200/2666 UDIMM Desktop Memory lets you wake up your PC with a performance upgrade that gives you faster startups.",
     "cat_id": 1,
     "brand": "Lexar ",
+    "score": "80",
     "image": "https://www.czone.com.pk/Images/Thumbnails/copy-copy-1-czone.com.pk-1540-12076-090921064921.jpg"
 },
 {
@@ -41,6 +42,7 @@ var product = [{
     "price": 7000,
     "description": "The DDR5-4800 U-DIMM delivers blazing frequencies of up to 4800 MT/s, a major leap from the max. frequency of DDR4 modules (3200 MT/s).",
     "brand": "ADATA",
+    "score": "80",
     "cat_id": 1,
     "image": "https://www.czone.com.pk/Images/Thumbnails/5-czone.com.pk-1540-13341-040424092424.jpg"
 },
